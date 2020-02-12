@@ -1,0 +1,55 @@
+// Place all the styles related to the Flats controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.content {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.flat-cards {
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #f8f9fb;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.info {
+  display: flex;
+}
+
+.info * {
+  margin: 5px;
+}
+
+.guests {
+  display: flex;
+  align-items: center;
+}
+
+.guests * {
+  margin: 5px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+}
+
+.price * {
+  margin: 5px;
+}
+
+.card-action-bar {
+  background-color: white;
+  padding: 5px;
+}
+
+.more-info {
+  color: blue;
+  text-decoration: none;
+}
